@@ -36,7 +36,7 @@ const Register: React.FC = () => {
       <FormContainer>
         <form onSubmit={handleSubmit}>
           <input 
-            placeholder="E-mail ou username"
+            placeholder="E-mail"
             type="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
