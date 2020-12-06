@@ -31,7 +31,7 @@ const NewCep: React.FC = () => {
         return;
       }
 
-      alert('Verifique se o CEP inserido possui 6 dígitos e se não há dígito repetitivo alternado em pares.');
+      alert('O CEP inserido não pode conter dígito repetitivo alternado em pares.');
     }
   }, [city, cep, history]);
 
@@ -62,7 +62,8 @@ const NewCep: React.FC = () => {
 
           <input 
             placeholder="CEP"
-            type="text"
+            type="number"
+            min="100000" max="999999"
             value={cep}
             onChange={e => setCep(e.target.value)}
           />
