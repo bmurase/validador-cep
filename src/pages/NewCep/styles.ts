@@ -56,6 +56,16 @@ export const FormContainer = styled.div`
     margin-bottom: 16px;
   }
 
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
   button {
     margin-right: 16px;
     margin-bottom: 16px;
