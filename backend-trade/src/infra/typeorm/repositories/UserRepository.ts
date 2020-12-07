@@ -28,12 +28,6 @@ class UserRepository implements IUserRepository {
 
     return findUser;
   }
-
-  // public async index(): Promise<User[]> {
-  //   const ceps = await this.ormRepository.find();
-
-  //   return ceps;
-  // }
 }
 
 export default UserRepository;
