@@ -49,7 +49,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
   docker start mongodb
  ```
  
- Com a conexação com o banco preparada, vá para a raiz do projeto e execute:
+ Com a conexão com o banco preparada, vá para a raiz do projeto e execute:
  ```
   yarn start
   cd backend-trade
